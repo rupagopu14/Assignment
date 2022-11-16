@@ -10,17 +10,20 @@ open the note from the search results
 Expected - it should open the Note details page
 Actual - 404 This page could not be found.
 Browser - chrome 103 version
-Owner Info is displayed as Object Object
+
+2. Owner Info is displayed as Object Object
 Go to search page
 Observe the list of note for the Owner Name
 Expected - the owner name should be displayed
 actual - Object Object is displayed
-Search Note by owner doesnt work
+
+3. Search Note by owner doesnt work
 Go to search page
 Enter Owner as test
 Expected - The list of all notes by owner 'test' should be listed, if there are no note by that owner name then empty list with prompt message as 'No notes found for owner 'test' should be displayed
 Actual - All the notes are displayed and /search API throws 400
-Profile API is broken - needs login every time
+
+4. Profile API is broken - needs login every time
 Login with valid credentials
 perform any transaction like create new note, go to search
 go back to profile
